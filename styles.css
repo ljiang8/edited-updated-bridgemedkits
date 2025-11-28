@@ -728,7 +728,7 @@ textarea:focus {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  height: 80%;      /* how tall they are inside the blue area */
+  height: 70%;      /* how tall they are inside the blue area */
   width: auto;
 }
 /* === Gold outline pill button === */
