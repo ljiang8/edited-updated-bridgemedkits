@@ -727,7 +727,7 @@ textarea:focus {
 .hero-logo-tall {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-20%);
   height: 70%;      /* how tall they are inside the blue area */
   width: auto;
 }
