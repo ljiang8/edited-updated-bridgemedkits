@@ -803,3 +803,30 @@ textarea:focus {
   max-width: 750px;
   border-radius: 12px;
 }
+/* ============================
+   HERO BUTTON STYLING
+============================ */
+.hero-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #a1de63;    /* green background */
+  color: white !important;       /* white text */
+  border: 2px solid #c89e62;     /* gold border */
+  border-radius: 50px;           /* oval shape */
+  text-decoration: none !important;
+  font-weight: 600;
+  transition: 0.25s ease-in-out;
+}
+
+/* Hover for both buttons */
+.hero-btn:hover {
+  background-color: #8bd452; /* slightly darker green */
+  color: white;
+}
+
+/* Special hover for Get Involved → turns gold */
+.hero-btn-hover:hover {
+  background-color: #c89e62 !important;
+  border-color: #c89e62 !important;
+  color: white !important;
+}
