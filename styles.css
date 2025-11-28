@@ -723,3 +723,11 @@ textarea:focus {
   font-size: 0.8rem;
   color: #9ca3af;
 }
+/* === Hero logo tweaks === */
+.hero-logo-tall {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 80%;      /* how tall they are inside the blue area */
+  width: auto;
+}
