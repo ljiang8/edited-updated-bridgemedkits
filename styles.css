@@ -830,3 +830,32 @@ textarea:focus {
   border-color: #c89e62 !important;
   color: white !important;
 }
+/* ============================
+   HERO BUTTON STYLING — FINAL OVERRIDE
+============================ */
+.hero-btn,
+.hero-btn:hover,
+.hero-btn.hero-btn-hover:hover {
+  all: unset;
+  display: inline-block;
+  padding: 12px 28px !important;
+  background-color: #a1de63 !important; /* green */
+  color: white !important;
+  border: 2px solid #c89e62 !important; /* gold */
+  border-radius: 50px !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+/* hover for both */
+.hero-btn:hover {
+  background-color: #8bd452 !important;
+}
+
+/* special hover */
+.hero-btn.hero-btn-hover:hover {
+  background-color: #c89e62 !important;
+  border-color: #c89e62 !important;
+  color: white !important;
+}
