@@ -859,3 +859,8 @@ textarea:focus {
   border-color: #c89e62 !important;
   color: white !important;
 }
+.hero-btn:not(.hero-btn-hover):hover {
+  background-color: #c89e62 !important;
+  border-color: #c89e62 !important;
+  color: white !important;
+}
