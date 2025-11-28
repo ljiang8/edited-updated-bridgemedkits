@@ -723,14 +723,6 @@ textarea:focus {
   font-size: 0.8rem;
   color: #9ca3af;
 }
-/* === Hero logo tweaks === */
-.hero-logo-tall {
-  position: absolute;
-  top: 10%;
-  transform: translateY(-100%);
-  height: 10%;      /* how tall they are inside the blue area */
-  width: auto;
-}
 /* === Gold outline pill button === */
 .gold-pill {
   border-radius: 999px;
