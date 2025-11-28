@@ -917,3 +917,31 @@ textarea:focus {
   margin-top: 2rem;
   margin-bottom: 3.5rem; /* gives breathing room before footer */
 }
+/* ============================================
+   GET INVOLVED — DONATE BUTTON CUSTOM PILL STYLE
+============================================ */
+
+.donate-buttons a {
+  all: unset !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0.6rem 1.6rem !important;
+  border-radius: 999px !important;
+
+  background-color: #0f6eff !important;   /* blue background */
+  color: #ffffff !important;              /* white text */
+  border: 2px solid #c89e62 !important;   /* gold outline */
+
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  transition: 0.25s ease-in-out !important;
+}
+
+/* Hover → turn gold */
+.donate-buttons a:hover {
+  background-color: #c89e62 !important;
+  border-color: #c89e62 !important;
+  color: #ffffff !important;
+}
