@@ -658,7 +658,7 @@ textarea:focus {
 
 /* Kits shipped subtitle */
 .section-accent p {
-  color: #111827;
+  color: #ffffff;
 }
 
 /* Impact images */
@@ -863,4 +863,23 @@ textarea:focus {
   background-color: #c89e62 !important;
   border-color: #c89e62 !important;
   color: white !important;
+}
+.support-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  background-color: #0f6eff; /* blue */
+  color: #ffffff !important;
+  border: 2px solid #c89e62; /* gold */
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.support-pill:hover {
+  background-color: #c89e62; /* gold on hover */
+  border-color: #c89e62;
+  color: #ffffff !important;
 }
