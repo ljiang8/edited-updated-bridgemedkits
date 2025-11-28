@@ -752,3 +752,10 @@ textarea:focus {
 .kits-subtitle {
   color: #ffffff;
 }
+/* === Card top banner === */
+.card-top-banner {
+  height: 6px;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+  background: linear-gradient(90deg, #0d6efd, #00c48c, #c89e62);
+}
