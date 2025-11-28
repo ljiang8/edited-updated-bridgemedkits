@@ -716,7 +716,11 @@ textarea:focus {
   color: #ffffff;
   font-size: 0.8rem;
 }
-
+/* Extra spacing around the secondary kit cards */
+.kit-grid-secondary {
+  margin-top: 3rem;       /* space ABOVE the maternal/pediatric row */
+  margin-bottom: 4rem;    /* space BELOW it, so the black footer isn't squished */
+}
 /* Footer note */
 .footer-note {
   margin-top: 1rem;
@@ -908,4 +912,8 @@ textarea:focus {
   background-color: #c89e62 !important;
   border-color: #c89e62 !important;
   color: #ffffff !important;
+}
+.kit-grid-secondary {
+  margin-top: 2rem;
+  margin-bottom: 3.5rem; /* gives breathing room before footer */
 }
