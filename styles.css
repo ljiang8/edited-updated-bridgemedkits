@@ -731,3 +731,21 @@ textarea:focus {
   height: 80%;      /* how tall they are inside the blue area */
   width: auto;
 }
+/* === Gold outline pill button === */
+.gold-pill {
+  border-radius: 999px;
+  border: 2px solid #c89e62;
+  padding: 0.55rem 1.8rem;
+  background-color: #ffffff;
+  color: #0066ff;          /* main blue text */
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.gold-pill:hover {
+  background-color: #c89e62;
+  color: #ffffff;
+}
