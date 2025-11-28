@@ -883,3 +883,24 @@ textarea:focus {
   border-color: #c89e62;
   color: #ffffff !important;
 }
+/* === Support section pills === */
+.support-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  background-color: #0f6eff;      /* blue background */
+  color: #ffffff !important;       /* white text */
+  border: 2px solid #c89e62;       /* gold border */
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: 0.25s ease-in-out;
+}
+
+/* Hover → gold pill */
+.support-pill:hover {
+  background-color: #c89e62 !important;   /* gold background */
+  border-color: #c89e62 !important;
+  color: #ffffff !important;
+}
