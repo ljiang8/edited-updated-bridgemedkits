@@ -781,3 +781,25 @@ textarea:focus {
   max-width: 750px;
   border-radius: 12px;
 }
+/* Center the video section */
+.video-stories {
+  text-align: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.video-stories h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Center and size the video itself */
+.testimonial-video {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 750px;
+  border-radius: 12px;
+}
