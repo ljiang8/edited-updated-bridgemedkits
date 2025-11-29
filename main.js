@@ -1,3 +1,4 @@
+// force update v2
 // Mobile nav toggle
 const navToggle = document.querySelector('.nav-toggle');
 const mainNav = document.querySelector('.main-nav');
