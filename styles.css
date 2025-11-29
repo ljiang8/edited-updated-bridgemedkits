@@ -981,3 +981,13 @@ textarea:focus {
     display: none;
   }
 }
+.success-message {
+  background: #e6ffed;
+  border: 1px solid #48c774;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  color: #215732;
+  font-weight: 500;
+  font-size: 1rem;
+}
