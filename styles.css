@@ -945,3 +945,39 @@ textarea:focus {
   border-color: #c89e62 !important;
   color: #ffffff !important;
 }
+/* ============================================
+   HERO LOGOS — BIG & CENTERED IN HERO BAND
+============================================ */
+.hero-content {
+  position: relative; /* make sure logos use this as their positioning parent */
+}
+
+.hero-logo {
+  position: absolute;
+  top: 50%;                      /* vertically centered in the blue hero area */
+  transform: translateY(-50%);   /* fix true centering */
+  height: 140px;                 /* make them larger */
+  width: auto;
+  border-radius: 999px;
+  object-fit: cover;
+  opacity: 0.95;
+}
+
+/* Left logo: toward left side, not hugging the edge */
+.hero-logo-left {
+  left: 6%;
+  bottom: auto;                  /* override old bottom position */
+}
+
+/* Right logo: toward right side */
+.hero-logo-right {
+  right: 6%;
+  top: 50%;                      /* make sure it follows the same centering */
+}
+
+/* Optional: hide the big logos on small screens so they don't crowd text */
+@media (max-width: 900px) {
+  .hero-logo {
+    display: none;
+  }
+}
