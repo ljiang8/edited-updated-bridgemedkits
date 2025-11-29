@@ -64,7 +64,10 @@
         </div>
         <div class="contact-form-wrapper">
           <h2>Send Us a Message</h2>
-          <form id="contact-form">
+          <form id="contact-form" action="https://formsubmit.co/bridgemedkits@gmail.com" method="POST">
+           <input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="https://bridgemedkits.org/contact.html?success=1">
+<input type="hidden" name="_subject" value="New BridgeMed Kits Message">
             <label>
               Name
               <input type="text" id="name" name="name" required>
@@ -81,7 +84,7 @@
               You can use this form to ask questions, explore partnerships, or let us know about materials you&apos;d like to donate.
             </p>
             <button type="submit" class="btn">Send Message</button>
-            <p id="form-status" class="form-status" aria-live="polite"></p>
+         
           </form>
         </div>
       </div>
