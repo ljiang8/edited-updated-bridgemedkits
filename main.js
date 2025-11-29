@@ -60,32 +60,3 @@ if (counterEl) {
   observer.observe(counterEl);
 }
 
-// Contact form -> open email client via mailto link
-const contactForm = document.getElementById('contact-form');
-
-if (contactForm) {
-  const statusEl = document.getElementById('form-status');
-  contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-
-    const name = document.getElementById('name')?.value.trim() || '';
-    const email = document.getElementById('email')?.value.trim() || '';
-    const message = document.getElementById('message')?.value.trim() || '';
-
-    const bodyLines = [
-      `Name: ${name}`,
-      `Email: ${email}`,
-      '',
-      'Message:',
-      message
-    ];
-
-    const mailto = `mailto:bridgemedkits@gmail.com?subject=${encodeURIComponent('BridgeMedKits Website Contact')}&body=${encodeURIComponent(bodyLines.join('\n'))}`;
-
-    window.location.href = mailto;
-
-    if (statusEl) {
-      statusEl.textContent = 'Your email app should open in a moment. If it does not, you can email us directly at bridgemedkits@gmail.com.';
-    }
-  });
-}
