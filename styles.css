@@ -991,4 +991,31 @@ textarea:focus {
   font-weight: 500;
   font-size: 1rem;
 }
+/* Side-by-side Donate buttons */
+.donate-buttons-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Wrap for PayPal button */
+.paypal-button-wrap {
+  width: 260px;       /* adjust if you want them bigger */
+}
+
+/* Resize PayPal image */
+.paypal-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Make GoFundMe button same width */
+.gfm-btn {
+  width: 260px;
+  text-align: center;
+  padding: 14px 0;
+  display: inline-block;
+}
 
