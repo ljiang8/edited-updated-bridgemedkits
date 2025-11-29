@@ -52,8 +52,6 @@
           <p>
             We&apos;d love to connect with you—whether you&apos;re interested in donating supplies,
             supporting our work, or exploring a partnership.            
-            <br><br>
-            <strong>We are still developing this page: if your form does not process, please email us directly. We apologize for any inconvenience this may incur.</strong>
           </p>
           <div class="contact-details">
             <p><strong>Email</strong><br><a href="mailto:bridgemedkits@gmail.com">bridgemedkits@gmail.com</a></p>
@@ -64,6 +62,9 @@
         </div>
         <div class="contact-form-wrapper">
           <h2>Send Us a Message</h2>
+            <div id="success-message" class="success-message" style="display:none;">
+    Thank you! Your message has been sent. We’ll get back to you shortly.
+  </div>
           <form id="contact-form" action="https://formsubmit.co/1920a90eaf8f31cadbe0ac8e3f1f4343" method="POST">
            <input type="hidden" name="_captcha" value="false">
 <input type="hidden" name="_next" value="https://bridgemedkits.org/contact.html?success=1">
@@ -119,7 +120,12 @@
       </div>
     </div>
   </footer>
-
+<script>
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('success') === '1') {
+    document.getElementById('success-message').style.display = 'block';
+  }
+</script>
   <script src="main.js"></script>
 </body>
 </html>
