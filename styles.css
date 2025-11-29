@@ -994,3 +994,9 @@ textarea:focus {
 body {
   background-color: #ffffff;
 }
+/* FORCE FOOTER FULL WIDTH */
+.site-footer {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
