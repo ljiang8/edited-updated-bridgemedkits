@@ -991,3 +991,12 @@ textarea:focus {
   font-weight: 500;
   font-size: 1rem;
 }
+.paypal-form {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.paypal-image {
+  width: 160px; /* Adjust size if you want it bigger or smaller */
+  cursor: pointer;
+}
